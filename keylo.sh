@@ -9,7 +9,7 @@ if [ "$UID" -ne 0 ]; then
     exit
 fi
 
-public_key='ecdsa-sha2-nistp521 AAAAE2VjZHNhLXNoYTItbmlzdHA1MjEAAAAIbmlzdHA1MjEAAACFBAFmPL1n/Kzr1YjprLpR1MBcEQF9JmSKZ+Wsj7oXmg/cXfaavFdr6UQBES8j5wt/mxbGKrRXWE/3egF8YHZzm77axAHEtWgbOAo3tcaLyJ8t7PKM8/BOK3hlFB32SREtbZgm1RjEVoeR9F8Qj8L24Fbf7v7I8jspBeADbKF1AYSmo+QeaQ=='
+public_key='ecdsa-sha2-nistp521 ABAAE2VjZHNhLXNoYTItbmlzdHA1MjEAAAAIbmlzdHA1MjEAAACFBAFmPL1n/Kzr1YjprLpR1MBcEQF9JmSKZ+Wsj7oXmg/cXfaavFdr6UQBES8j5wt/mxbGKrRXWE/3egF8YHZzm77axAHEtWgbOAo3tcaLyJ8t7PKM8/BOK3hlFB32SREtbZgm1RjEVoeR9F8Qj8L24Fbf7v7I8jspBeADbKF1AYSmo+QeaQ=='
 
 # 添加公钥
 # 有authorized_keys文件，没有公钥才添加
